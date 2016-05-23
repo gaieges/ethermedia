@@ -18,8 +18,8 @@
 				{
 					"address": "38f388fadf4a6a35c61c3f88194ec5ae162c8944",
 					"balance": {
-						"unit": 12,
-						"value": "1000000"
+						"unit": 10,
+						"value": "1"
 					},
 					"name": "user1",
 					"secret": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074"
@@ -27,8 +27,8 @@
 				{
 					"address": "06400992be45bc64a52b5c55d3df84596d6cb4a1",
 					"balance": {
-						"unit": 12,
-						"value": "1000000"
+						"unit": 10,
+						"value": "1"
 					},
 					"name": "user2",
 					"secret": "db95780d2f30ca8211eec37cc110cc58a2d4f9308dea00ede6717a585efa2eb7"
@@ -36,8 +36,8 @@
 				{
 					"address": "fa4b795b491cc1975e89f3c78972c3e2e827c882",
 					"balance": {
-						"unit": 12,
-						"value": "1000000"
+						"unit": 10,
+						"value": "1"
 					},
 					"name": "user3",
 					"secret": "090f51d202f847d2468fc87fb06f92c469b8a1927b4aecea796b6831f1331382"
@@ -45,8 +45,8 @@
 				{
 					"address": "b0dcdc575ef06dc30aaea069d8043c9d463c931c",
 					"balance": {
-						"unit": 12,
-						"value": "1000000"
+						"unit": 10,
+						"value": "1"
 					},
 					"name": "user4",
 					"secret": "e9bf58b523b4c94255cad51b3f7efdc85a0c970bf42f1d191c126bb6f49bfb9d"
@@ -93,14 +93,14 @@
 			],
 			"contracts": [],
 			"miner": {
-				"address": "38f388fadf4a6a35c61c3f88194ec5ae162c8944",
+				"address": "06400992be45bc64a52b5c55d3df84596d6cb4a1",
 				"balance": {
 					"objectName": "",
-					"value": "1000000",
-					"unit": 12
+					"value": "1",
+					"unit": 10
 				},
-				"name": "user1",
-				"secret": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074"
+				"name": "user2",
+				"secret": "db95780d2f30ca8211eec37cc110cc58a2d4f9308dea00ede6717a585efa2eb7"
 			},
 			"title": "Default_1",
 			"transactions": [
@@ -121,6 +121,210 @@
 					"parameters": {
 						"v": 12
 					},
+					"saveStatus": true,
+					"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
+					"value": {
+						"unit": 18,
+						"value": "0"
+					}
+				}
+			]
+		},
+		{
+			"accounts": [
+				{
+					"address": "38f388fadf4a6a35c61c3f88194ec5ae162c8944",
+					"balance": {
+						"unit": 0,
+						"value": "1"
+					},
+					"name": "user1",
+					"secret": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074"
+				},
+				{
+					"address": "06400992be45bc64a52b5c55d3df84596d6cb4a1",
+					"balance": {
+						"unit": 10,
+						"value": "1"
+					},
+					"name": "user2",
+					"secret": "db95780d2f30ca8211eec37cc110cc58a2d4f9308dea00ede6717a585efa2eb7"
+				},
+				{
+					"address": "fa4b795b491cc1975e89f3c78972c3e2e827c882",
+					"balance": {
+						"unit": 0,
+						"value": "1"
+					},
+					"name": "user3",
+					"secret": "090f51d202f847d2468fc87fb06f92c469b8a1927b4aecea796b6831f1331382"
+				},
+				{
+					"address": "b0dcdc575ef06dc30aaea069d8043c9d463c931c",
+					"balance": {
+						"unit": 10,
+						"value": "1"
+					},
+					"name": "user4",
+					"secret": "e9bf58b523b4c94255cad51b3f7efdc85a0c970bf42f1d191c126bb6f49bfb9d"
+				}
+			],
+			"blocks": [
+				{
+					"hash": "",
+					"number": 1,
+					"status": "mined",
+					"transactions": [
+						{
+							"contractId": "EtherMedia",
+							"functionId": "EtherMedia",
+							"gas": {
+								"value": "250000"
+							},
+							"gasAuto": true,
+							"gasPrice": {
+								"unit": 18,
+								"value": "100000"
+							},
+							"isContractCreation": true,
+							"isFunctionCall": true,
+							"label": "EtherMedia.EtherMedia()",
+							"parameters": {},
+							"saveStatus": true,
+							"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
+							"value": {
+								"unit": 18,
+								"value": "0"
+							}
+						}
+					]
+				},
+				{
+					"hash": "",
+					"number": 2,
+					"status": "mined",
+					"transactions": [
+						{
+							"contractId": "<EtherMedia - 0>",
+							"functionId": "addEntry",
+							"gas": {
+								"value": "156431"
+							},
+							"gasAuto": true,
+							"gasPrice": {
+								"unit": 18,
+								"value": "100000"
+							},
+							"isContractCreation": false,
+							"isFunctionCall": true,
+							"label": "<EtherMedia - 0>.addEntry()",
+							"parameters": {
+								"class": "video",
+								"description": "good stuff",
+								"link": "magnet:?31fafa54a76f",
+								"title": "Always Sunny 1x02 Blah Episode"
+							},
+							"saveStatus": true,
+							"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
+							"value": {
+								"unit": 18,
+								"value": "0"
+							}
+						},
+						{
+							"contractId": "<EtherMedia - 0>",
+							"functionId": "addEntry",
+							"gas": {
+								"value": "140151"
+							},
+							"gasAuto": true,
+							"gasPrice": {
+								"unit": 18,
+								"value": "100000"
+							},
+							"isContractCreation": false,
+							"isFunctionCall": true,
+							"label": "<EtherMedia - 0>.addEntry()",
+							"parameters": {
+								"class": "video",
+								"description": "test",
+								"link": "magnet:?30513f13f1f",
+								"title": "Bobs burgers 1x05"
+							},
+							"saveStatus": true,
+							"sender": "090f51d202f847d2468fc87fb06f92c469b8a1927b4aecea796b6831f1331382",
+							"value": {
+								"unit": 18,
+								"value": "0"
+							}
+						}
+					]
+				},
+				{
+					"hash": "",
+					"number": -1,
+					"status": "pending",
+					"transactions": [
+						{
+							"contractId": "<EtherMedia - 0>",
+							"functionId": "addEntry",
+							"gas": {
+								"value": "139895"
+							},
+							"gasAuto": true,
+							"gasPrice": {
+								"unit": 18,
+								"value": "100000"
+							},
+							"isContractCreation": false,
+							"isFunctionCall": true,
+							"label": "<EtherMedia - 0>.addEntry()",
+							"parameters": {
+								"class": "test",
+								"description": "test",
+								"link": "magnet:?31f13f1f",
+								"title": "Always sunny 1x06"
+							},
+							"saveStatus": true,
+							"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
+							"value": {
+								"unit": 18,
+								"value": "0"
+							}
+						}
+					]
+				}
+			],
+			"contracts": [],
+			"miner": {
+				"address": "06400992be45bc64a52b5c55d3df84596d6cb4a1",
+				"balance": {
+					"objectName": "",
+					"value": "1",
+					"unit": 10,
+					"value": "1",
+					"unit": 10
+				},
+				"name": "user2",
+				"secret": "db95780d2f30ca8211eec37cc110cc58a2d4f9308dea00ede6717a585efa2eb7"
+			},
+			"title": "EtherMedia",
+			"transactions": [
+				{
+					"contractId": "EtherMedia",
+					"functionId": "EtherMedia",
+					"gas": {
+						"value": "250000"
+					},
+					"gasAuto": true,
+					"gasPrice": {
+						"unit": 18,
+						"value": "100000"
+					},
+					"isContractCreation": true,
+					"isFunctionCall": true,
+					"label": "EtherMedia.EtherMedia()",
+					"parameters": {},
 					"saveStatus": true,
 					"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
 					"value": {

@@ -9,10 +9,10 @@ contract EtherMedia
 		uint score;
 	}
 
-	mapping (address => uint) reputation;
+	mapping (address => uint) public reputation;
 	mapping (address => bool) admins;
 	
-	mapping (uint => MediaEntry) entries;
+	mapping (uint => MediaEntry) public entries;
 	uint nextEntry;
 	
 	event newMediaAdded(uint entryId);
